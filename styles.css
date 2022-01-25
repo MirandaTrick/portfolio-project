@@ -1,0 +1,23 @@
+.whole-page {
+  background-color: #f7f7f7;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+.header {
+  margin: 200px auto;
+  text-align: center;
+  display: block;
+  color: #f7f7f7;
+  background-color: #222831;
+  padding: 50px;
+}
+.hi-header {
+  font-size: 20px;
+}
+.name-header {
+  font-size: 80px;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+}
