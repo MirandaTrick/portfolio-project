@@ -1,14 +1,20 @@
+:root {
+  --primary-color: #f7f7f7;
+  --accent-color: #222831;
+}
+
 .whole-page {
-  background-color: #f7f7f7;
+  background-color: var(--primary-color);
   font-family: "Poppins", sans-serif;
   font-weight: 100;
+  color: var(--accent-color);
 }
 .header {
-  margin: 200px auto;
+  margin: 200px auto 50px;
   text-align: center;
   display: block;
-  color: #f7f7f7;
-  background-color: #222831;
+  color: var(--primary-color);
+  background-color: var(--accent-color);
   padding: 50px;
 }
 .hi-header {
@@ -20,4 +26,38 @@
 }
 .navbar-brand {
   font-family: "Montserrat", sans-serif;
+}
+.projects-header {
+  display: block;
+  font-size: 50px;
+  text-align: center;
+  margin: 50px 0px;
+}
+.project-sub-head {
+  text-align: center;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.weather-img {
+  margin: 10px;
+  border-radius: 4;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.contact-button {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  margin-left: 30px;
+  border-radius: 10px;
+  padding: 15px 30px;
+  border: 1px solid var(--accent-color);
+}
+.about-button {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  border-radius: 10px;
+  padding: 15px 35px;
+  border: 1px solid var(--accent-color);
 }
