@@ -26,9 +26,11 @@
   </head>
   <body>
     <div class="whole-page">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-body">
+      <nav
+        class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent"
+      >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Miranda Trick</a>
+          <a class="navbar-brand name-link" href="#">Miranda Trick</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -43,24 +45,34 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active home-link"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link about-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link contact-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+
       <div class="header">
-        <h3 class="hi-header">Hi i am</h3>
-        <h1 class="name-header">Miranda Trick</h1>
-        <h2 class="description-header">
-          Junior Software Developer, based in the UK
-        </h2>
+        <div class="header-text">
+          <h3 class="hi-header">Hi i am</h3>
+          <div class="typewritten">
+            <h1 class="name-header">Miranda Trick</h1>
+          </div>
+          <h2 class="description-header">
+            Junior Software Developer, based in the UK
+          </h2>
+        </div>
       </div>
       <div class="buttons">
         <button class="about-button"><a href="/about.html"></a>About Me</button>
@@ -68,11 +80,10 @@
           <a href="/contact.html"></a>Contact Me
         </button>
       </div>
-      <h3 class="projects-header border-top border-bottom border-2 p-4">
-        Projects
-      </h3>
+
+      <h3 class="projects-header p-4">Projects</h3>
       <div class="row">
-        <div class="col-sm-4 project-sub-head">
+        <div class="col-sm-4 project-sub-head weather-app">
           Vanilla JS Weather App
           <a href="https://keen-khorana-6bcfb1.netlify.app/" target="blank"
             ><img
