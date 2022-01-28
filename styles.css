@@ -35,19 +35,21 @@ a:hover {
   background-image: url(/images/black-img.jpg);
   background-size: cover;
   text-align: center;
-  margin: 100px auto 50px;
+  margin: 100px 50px 50px 50px;
   display: block;
   color: var(--primary-color);
   background-color: var(--accent-color);
-  padding: 50px;
+  padding: 70px;
   border-top: 3px solid var(--orange-accent);
   border-bottom: 3px solid var(--orange-accent);
+  line-height: 70px;
+  border-radius: 35px;
 }
 .hi-header {
   font-size: 20px;
 }
 .name-header {
-  font-size: 80px;
+  font-size: 100px;
   font-family: "Montserrat", sans-serif;
   overflow: hidden;
   border-right: 0.15em solid #e8630a;
@@ -55,6 +57,9 @@ a:hover {
   animation: typing 4s steps(20, end) forwards;
 
   width: 0;
+}
+.description-header {
+  font-size: 25px;
 }
 
 @keyframes typing {
