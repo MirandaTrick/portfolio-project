@@ -35,7 +35,7 @@ a:hover {
   background-image: url(/images/black-img.jpg);
   background-size: cover;
   text-align: center;
-  margin: 100px 50px 50px 50px;
+  margin: 100px 25px 50px 25px;
   display: block;
   color: var(--primary-color);
   background-color: var(--accent-color);
@@ -43,7 +43,7 @@ a:hover {
   border-top: 3px solid var(--orange-accent);
   border-bottom: 3px solid var(--orange-accent);
   line-height: 70px;
-  border-radius: 35px;
+  border-radius: 10px;
 }
 .hi-header {
   font-size: 20px;
@@ -125,6 +125,10 @@ a:hover {
   border: 2px solid var(--orange-accent);
 }
 @media (max-width: 576px) {
+  .header {
+    margin: 70px 5px 20px 5px;
+    line-height: 15px;
+  }
   .hi-header {
     font-size: 15px;
   }
