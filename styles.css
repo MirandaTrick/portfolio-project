@@ -75,6 +75,7 @@ a:hover {
   margin: 50px 0px;
   border-top: 1px solid var(--orange-accent);
   border-bottom: 1px solid var(--orange-accent);
+  font-family: "Montserrat", sans-serif;
 }
 .project-sub-head {
   text-align: center;
@@ -133,5 +134,14 @@ a:hover {
   }
   .weather-img {
     width: 200px;
+  }
+  .projects-header {
+    font-size: 40px;
+  }
+  .contact-button {
+    padding: 10px 20px;
+  }
+  .about-button {
+    padding: 10px 25px;
   }
 }
