@@ -117,3 +117,21 @@ a:hover {
   margin-left: 20px;
   border: 2px solid var(--orange-accent);
 }
+@media (max-width: 576px) {
+  .hi-header {
+    font-size: 15px;
+  }
+  .name-header {
+    font-size: 40px;
+  }
+  .description-header {
+    font-size: 20px;
+  }
+  .weather-app {
+    padding: 5px;
+    margin: auto;
+  }
+  .weather-img {
+    width: 200px;
+  }
+}
