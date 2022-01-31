@@ -7,7 +7,7 @@
 body {
   background-color: #d9dad7;
   font-family: "Poppins", sans-serif;
-  font-weight: 100;
+  font-weight: 50;
   margin-top: 0px;
 }
 .navbar-custom {
@@ -64,7 +64,7 @@ a:hover {
 
 @keyframes typing {
   from {
-    width: 50;
+    width: 0;
   }
   to {
     width: 100%;
@@ -117,12 +117,30 @@ a:hover {
   font-weight: lighter;
   font-size: 20px;
 }
-.weather-app {
-  color: var(--primary-color);
-  background-color: var(--accent-color);
+
+.projects-card {
+  margin-left: 190px;
+  margin-right: 190px;
+}
+.img-card {
+  padding: 30px 10px 30px 50px;
+
+  border: 1px solid var(--orange-accent);
+}
+.left-card {
+  border-radius: 34px 0px 0px 34px;
+}
+.card {
+  background-color: var(--primary-color);
+  border: none;
+}
+.text-card {
+  text-align: center;
   padding: 20px;
-  margin-left: 20px;
-  border: 2px solid var(--orange-accent);
+  background-color: var(--orange-accent);
+}
+.right-card {
+  border-radius: 0px 34px 34px 0px;
 }
 @media (max-width: 576px) {
   .header {
@@ -153,5 +171,14 @@ a:hover {
   }
   .about-button {
     padding: 10px 25px;
+  }
+  .projects-card {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 850px) {
+  .name-header {
+    font-size: 60px;
   }
 }
