@@ -32,7 +32,9 @@ a:hover {
   color: inherit;
   text-decoration: none !important;
 }
-
+.nav-item a:hover {
+  color: var(--accent-color) !important;
+}
 .name-link {
   color: var(--accent-color) !important;
 }
@@ -105,23 +107,23 @@ a:hover {
   text-decoration: none;
 }
 .contact-button {
-  background-color: var(--accent-color);
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--accent-color);
   margin-left: 30px;
   border-radius: 4px;
   padding: 15px 30px;
-  border: 2px solid var(--orange-accent);
-
+  border: 1px solid var(--orange-accent);
+  font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   font-size: 20px;
 }
 .about-button {
-  background-color: var(--accent-color);
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--orange-accent);
   border-radius: 4px;
   padding: 15px 35px;
-  border: 2px solid var(--orange-accent);
-
+  border: 1px solid var(--accent-color);
+  font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   font-size: 20px;
 }
@@ -181,16 +183,44 @@ a:hover {
 .logo-row {
   border-bottom: 1px solid var(--orange-accent);
   padding-bottom: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 .toolkit-header {
   display: block;
   font-size: 40px;
   text-align: center;
-  margin: 50px 0px 30px 0px;
+  margin: 50px 0px 10px 0px;
   border-top: 1px solid var(--orange-accent);
-  border-bottom: 1px solid var(--orange-accent);
+
   font-family: "Montserrat", sans-serif;
+}
+.contact-header {
+  margin: 200px 50px 50px 50px;
+  font-size: 100px !important;
+}
+p a {
+  color: var(--orange-accent);
+}
+p a:hover {
+  color: var(--accent-color);
+}
+footer {
+  background-image: url(/images/black-img.jpg);
+  background-size: cover;
+  padding: 20px 0px 14px 0px;
+  color: var(--primary-color);
+  font-family: "Montserrat", sans-serif;
+  border-top: 2px solid var(--orange-accent);
+  margin-top: 40px;
+}
+footer a {
+  margin: 0px 10px;
+}
+.linkedin-color {
+  color: #054182;
+}
+.git-purple-color {
+  color: #7b2c79;
 }
 @media (max-width: 576px) {
   .header {
@@ -237,6 +267,18 @@ a:hover {
   }
   .img-card {
     padding: 20px;
+  }
+  .about-para {
+    border: 2px solid var(--orange-accent);
+    padding: 30px 10px;
+    margin: 30px 30px 30px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    line-height: 2;
+  }
+  .logo-row {
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 1000px) and (min-width: 576px) {
