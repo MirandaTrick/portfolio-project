@@ -280,6 +280,9 @@ footer a {
     display: flex;
     justify-content: center;
   }
+  .contact-header {
+    margin-top: 100px;
+  }
 }
 @media (max-width: 1000px) and (min-width: 576px) {
   .name-header {
